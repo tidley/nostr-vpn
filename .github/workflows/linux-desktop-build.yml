@@ -33,7 +33,7 @@ jobs:
           apt-get install -y --no-install-recommends \
             ca-certificates curl git build-essential pkg-config clang libclang-dev \
             libgtk-4-dev libadwaita-1-dev libssl-dev libdbus-1-dev python3 file \
-            xvfb xauth dbus-x11
+            xvfb xauth dbus-x11 xdotool
 
       - uses: actions/checkout@v6
 
